@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="left-side">
+            <img src="assets/logo!.png">
+
+            <ul>
+                <li><a class="home" href="index1.html">Home</a></li>
+                <li><a href="/">Blog</a></li>
+            </ul>
+        </div>
+
+        <div class="right-side">
+            <a href="contact-me.html">Contact Me</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="containerC">
+            <form onSubmit="addBlog()"></form>
+                <h1>Create New Project</h1>
+                <div class="projectN">
+                    <label for="Pname">Project Name </label>
+                    <input type="text" id="Pname"><br><br>
+                </div>
+                <div class="date">
+                    <div class="leftSide">
+                        <div class="dateStart">
+                            <label for="startDate">Start Date </label>
+                            <input type="date" id="startDate">
+                        </div>
+                    </div>
+                    
+                    <div class="rightSide">
+                        <div class="endStart">
+                            <label for="endDate">End Date </label>
+                            <input type="date" id="endDate">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text">
+                    <label for="text1">Your Message</label>
+                    <textarea id="text1"></textarea>
+                </div>
+                
+                <div class="check">
+                    <div class="leftCheck">
+                        <div class="leftContent">
+                            <label>Technologies</label> <br>
+                            <input type="checkbox" id="check1" name="check1" value="Bike">
+                            <label for="check1"> I have a bike</label><br>
+                            <input type="checkbox" id="check2" name="check2" value="Car">
+                            <label for="check2"> I have a car</label><br>
+                        </div>
+                    </div>
+                    <div class="rightCheck"> <br>
+                        <input type="checkbox" id="check3" name="check3" value="Boat">
+                        <label for="check3"> I have a boat</label> <br>
+                        <input type="checkbox" id="check4" name="check4" value="SoeedBoat">
+                        <label for="check4"> I have a bmw</label>
+                    </div>     
+                </div>
+            
+                <div class="upload">
+                        <label>Upload Image</label>
+                    <div class="input-blog-image-group">
+                        <label for="input-blog-image">
+                            <p>Attach File</p>
+                            <img src="assets/file.png" alt="file" />
+                        </label>
+                            <input type="file" id="input-blog-image" hidden />
+                    </div>    
+                </div>
+                <div class="button-group">
+                    <button type="button" onclick="addBlog()">Post Blog</button>
+                </div>
+            </form>  
+
+            
+        </div>
+
+        <br>
+
+            <hr class="line" />
+            
+        <div id="contents" class="containerB">
+            <h1>My Project</h1>
+            <div class="content">
+                <div class="card1">
+                    <img src="assets/card1.png">
+                    <h4>Dumbways Mobile App - 2022</h4>
+
+                    <p>Durasi : 3 Bulan</p>
+
+                    <p class="p2">App that use for dumbways student, it was deployed and can downloaded on play store.  Happy Download</p>
+                    <div class="image">
+                        <img src="assets/googleplay.png">
+                        <img src="assets/android-logo.png">
+                        <img src="assets/java.png">
+                    </div> 
+                    <div class="buttonEnd">
+                        <div class="left-side">
+                            <a href="#">Edit</a>
+                        </div>
+                        <div class="right-side">
+                            <a href="#">Delete</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card2">
+                    <img src="assets/card2.png">
+                    <h4>Dumbways Mobile App - 2022</h4>
+
+                    <p>Durasi : 3 Bulan</p>
+
+                    <p class="p3">App that use for dumbways student, it was deployed and can downloaded on play store.  Happy Download</p>
+                    <div class="image">
+                        <img src="assets/googleplay.png">
+                        <img src="assets/android-logo.png">
+                        <img src="assets/java.png">
+                    </div> 
+                    <div class="buttonEnd">
+                        <div class="left-side">
+                            <a href="#">Edit</a>
+                        </div>
+                        <div class="right-side">
+                            <a href="#">Delete</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card3">
+                    <img src="assets/card3.jpg">
+                    <h4>Dumbways Mobile App - 2022</h4>
+
+                    <p>Durasi : 3 Bulan</p>
+
+                    <p class="p4">App that use for dumbways student, it was deployed and can downloaded on play store.  Happy Download</p>
+                    <div class="image">
+                        <img src="assets/googleplay.png">
+                        <img src="assets/android-logo.png">
+                        <img src="assets/java.png">
+                    </div>
+                    <div class="buttonEnd">
+                        <div class="left-side">
+                            <a href="#">Edit</a>
+                        </div>
+                        <div class="right-side">
+                            <a href="#">Delete</a>
+                        </div>
+                    </div>
+                </div>  
+                <div class="card4">
+                    <img src="assets/card4.jpg">
+                    <h4>Dumbways Mobile App - 2022</h4>
+
+                    <p>Durasi : 3 Bulan</p>
+
+                    <p class="p5">App that use for dumbways student, it was deployed and can downloaded on play store.  Happy Download</p>
+                    <div class="image">
+                        <img src="assets/googleplay.png">
+                        <img src="assets/android-logo.png">
+                        <img src="assets/java.png">
+                    </div>
+                    <div class="buttonEnd">
+                        <div class="left-side">
+                            <a href="#">Edit</a>
+                        </div>
+                        <div class="right-side">
+                            <a href="#">Delete</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card5">
+                    <img src="assets/card5.jpg">
+                    <h4>Dumbways Mobile App - 2022</h4>
+
+                    <p>Durasi : 3 Bulan</p>
+
+                    <p class="p6">App that use for dumbways student, it was deployed and can downloaded on play store.  Happy Download</p>
+                    <div class="image">
+                        <img src="assets/googleplay.png">
+                        <img src="assets/android-logo.png">
+                        <img src="assets/java.png">
+                    </div>
+                    <div class="buttonEnd">
+                        <div class="left-side">
+                            <a href="#">Edit</a>
+                        </div>
+                        <div class="right-side">
+                            <a href="#">Delete</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card6">
+                    <img src="assets/card6.jpg">
+                    <h4>Dumbways Mobile App - 2022</h4>
+
+                    <p>Durasi : 3 Bulan</p>
+
+                    <p class="p7">App that use for dumbways student, it was deployed and can downloaded on play store.  Happy Download</p>
+                    <div class="image">
+                        <img src="assets/googleplay.png">
+                        <img src="assets/android-logo.png">
+                        <img src="assets/java.png">
+                    </div>
+                    <div class="buttonEnd">
+                        <div class="left-side">
+                            <a href="#">Edit</a>
+                        </div>
+                        <div class="right-side">
+                            <a href="#">Delete</a>
+                        </div>
+                    </div>
+
+                </div>  
+            </div>
+        </div>
+            
+            
+    </div>
+
+    <script src="rev.js"></script>
+
+
+</body>
+</html>
